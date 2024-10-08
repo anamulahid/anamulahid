@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const Header = () => {
   console.log("test")
+  
   const [btnNameReact,setbtnNameReact] = useState("Logout");
     return (
       <div className="flex justify-between bg-pink-200 shadow-lg m-2">
